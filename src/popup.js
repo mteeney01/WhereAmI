@@ -30,7 +30,6 @@ function renderLong(longitude) {
 }
 
 function renderEstimatedAddress(results) {
-  var address;
   if (results.length > 0) {
     document.getElementById('estimatedAddress').textContent = 'Estimated address: ' + results[0].formatted_address;
   }
