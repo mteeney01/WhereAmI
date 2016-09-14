@@ -42,6 +42,7 @@ function renderEstimatedAddress(results) {
 document.addEventListener('DOMContentLoaded', function() {
     getUserLoc(function(position) {
       var coords = position.coords;
+      renderStatus('');
       renderLat(coords.latitude);
       renderLong(coords.longitude);
       getEstimatedAddress(coords, function(results){
