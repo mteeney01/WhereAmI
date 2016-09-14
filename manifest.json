@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Where Am I?",
+  "description": "This extension tells the user their latitude/longitude coordinates.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "geolocation"
+  ]
+}
